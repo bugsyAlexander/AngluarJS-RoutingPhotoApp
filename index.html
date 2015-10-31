@@ -1,16 +1,41 @@
 <!doctype html>
 <html>
   <head>
-    <link href="http://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet" />
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
-    <link href="css/main.css" rel="stylesheet" />
+
+  <!-- Font
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+  
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="http://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/main.css" rel="stylesheet" />
     
-    <!-- Include the core AngularJS library -->
-    <script src="js/shared/angular.min.js"></script>
-    
-    <!-- Include the AngularJS routing library -->
-    <script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
+  <!-- Angular
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/shared/angular.min.js"></script>
+  <script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
+
   </head>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <section class="menu-section">
+    <nav id="social-menu" class="social-menu menu" role="navigation">
+      <ul>
+        <li><a href="http://mynoralexander.com/?utm_source=github&utm_medium=routing-photo-app&utm_campaign=angular-routing-photo-app" target="_blank" title="Mynor Alexanders website"></a></li>
+        <li><a href="https://twitter.com/bugsyAlexander" target="_blank" title="Twitter"><span class="screen-reader-text">Twitter</span></a></li>
+        <li><a href="https://github.com/bugsyAlexander" target="_blank" title="Github"><span class="screen-reader-text">Github</span></a></li>
+        <li><a href="https://www.linkedin.com/pub/mynor-alexander/5b/943/877" target="_blank" title="LinkedIn"><span class="screen-reader-text">LinkedIn</span></a></li>
+      </ul>
+    </nav>
+    <!-- .social-menu -->
+  </section>
+  <!-- .menu-section -->
+
+  <!-- Angular App
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <body ng-app="GalleryApp">
 
     <div class="header">
